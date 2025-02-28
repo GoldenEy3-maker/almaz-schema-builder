@@ -1,0 +1,17 @@
+{
+  "name": "almaz-schema-builder",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^7.0.1",
+    "sharp": "^0.33.5"
+  }
+}
