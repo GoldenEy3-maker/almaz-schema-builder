@@ -53,6 +53,11 @@ async function main() {
 
             const id = rect.getAttribute("id");
 
+            if (!id) {
+              rect.remove();
+              return;
+            }
+
             const [, , numbers] = id.split("-");
 
             rect.setAttribute(
