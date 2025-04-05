@@ -74,8 +74,8 @@ async function main() {
             svg.appendChild(rect);
           });
 
-          defs.remove();
-          group.remove();
+          defs?.remove();
+          group?.remove();
 
           svg.removeWhitespace();
 
